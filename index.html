@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>VHEMT</title>
   <meta name="author" content="Zefir Efemera">
-  <meta name="description" content="VHEMT PL">
+  <meta name="description" content="VHEMT. Ruch na rzecz dobrowolnego wymarcia gatunku ludzkiego. Żyjmy długo i przestańmy istnieć.">
   <link rel="home" href="https://vhemt.pl">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -23,18 +23,37 @@
   <style>
     :root {
       background-color: snow;
-      color: midnightblue;
+      color: black;
       font-size: 20px;
       line-height: 1.666;
-      font-family: sans-serif;
+      font-family: serif;
     }
     * {
       box-sizing: border-box;
       margin: 0;
     }
     body {
-      padding: 2rem;
+      padding: 0;
       height: 100%;
+    }
+    main,
+    footer {
+      padding: 2rem;
+      max-width: 36rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h1 {
+      font-size: 2rem;
+      line-height: 1;
+      text-align: center;
+    }
+    img:not(:last-child),
+    h1:not(:last-child),
+    p:not(:last-child),
+    ul:not(:last-child),
+    blockquote:not(:last-child) {
+      margin-bottom: 1rem;
     }
     a {
       color:  inherit;
@@ -43,16 +62,28 @@
     a:href {
       text-decoration-style: solid;
     }
+    blockquote {
+      font-style: italic;
+      border-left: 0.1rem solid currentcolor;
+      padding-left: 0.5rem;
+    }
+    footer {
+      font-size: 0.8rem;
+    }
+    #vhemt-logo {
+      max-width: 10rem;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
   </style>
 </head>
 
 <body>
   <main>
-    <h1>VHEMT<sup>1</sup></h1>
+    <img id="vhemt-logo" src="./vhemt-logo.svg" title="VHEMT" />
 
-    <p><sup>1</sup> "VHEMT" to skrót od "The Voluntary Human Extinction Movement", czyli "Ruch na rzecz dobrowolnego wymarcia gatunku ludzkiego".</p>
-
-    <p>Główne motto ruchu to:</p>
+    <p>"VHEMT" to skrót od "The Voluntary Human Extinction Movement", czyli "Ruch na rzecz dobrowolnego wymarcia gatunku ludzkiego". Główne motto ruchu to:</p>
 
     <blockquote>Żyjmy długo i przestańmy istnieć</blockquote>
 
@@ -62,7 +93,7 @@
   </main>
   
   <footer>
-    <p><a href="https://zefirefemera.xyz" target="_blank">zefir efemera</a></p>
+    <p>Uproszczone/nowe logo i tą stronę zrobił <a href="https://zefirefemera.xyz" target="_blank">Zefir Efemera</a> z miłości do ruchu. Tekst to trochę tłumaczenie i trochę inspiracja oficjalną stroną.</p>
   </footer>
 </body>
 </html>
